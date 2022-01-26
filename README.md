@@ -1,23 +1,28 @@
 # ACTIVA: Realistic scRNAseq Generation with Automatic Cell-Type identification using Introspective Variational Autoencoders
-[![publication](https://img.shields.io/badge/Cite-Preprint-yellowgreen)](https://github.com/odavalos/ACTIVA/blob/main/README.md#citation)
-
 This Repository contains the package for [ACTIVA (Single Cell generationg with Introspective Variational autoencoders)](https://www.biorxiv.org/content/10.1101/2021.01.28.428725v1).
 
+## Tutorials
+Tutorials for using ACTIVA are avaialable [here](https://github.com/SindiLab/Tutorials/tree/main/ACTIVA)
+
+
 ## Data and Pre-Trained Models Availability 
+
+### Original Data
+The original data (sparse matrices) is freely available on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5842658.svg)](https://doi.org/10.5281/zenodo.5842658)
+
+ ### Pre- and Post-Processed Data
 All of our data can be freely downloaded using the following addresses:
 
-| Data          |                                                URL/URI                                                |
+| Data          |                                                URI                                                |
 |:-------------:|:-------------------------------------------------------------------------------------------------:|
-|  Raw Brain Small  |       https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.3.0/1M_neurons       |
-|  Raw 68K PBMC   | https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/fresh_68k_pbmc_donor_a |
 |  Pre-processed Brain Small  |   s3://activa-material/PreprocessedData/20kBrainSmall_preprocessed.h5                |
 |  Pre-processed 68K PBMC  |    s3://activa-material/PreprocessedData/68kPBMC_preprocessed.h5ad                      |
+|  Pre-processed NeuroCOVID  |    s3://activa-material/PreprocessedData/NeuroCovid/NeuroCOVID_PreProcessedUsingScGAN_Sparse.h5ad      |
 |  Post-processed Brain Small              |   s3://activa-material/PostProcessedData/final_brainsmall_val_int_clust.h5ad|
 |  Post-processed 68K PBMC             |    s3://activa-material/PostProcessedData/final_68kpbmc_val_int_clust.h5ad|
 
-and our pre-trained models can be freely accessed using the following URIs:
-
-
+### Pre-Trained Models
+our pre-trained models can be freely accessed using the following URIs:
 
 | Model          |                                                URI                                              |
 |:-------------:|:-------------------------------------------------------------------------------------------------:|
